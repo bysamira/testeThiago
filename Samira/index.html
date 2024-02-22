@@ -5,181 +5,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Thiago</title>
-    <link rel="stylesheet" href="./stylemenu.css">
-    <link rel="stylesheet" href="./stylegrid.css">
+    <link rel="stylesheet" href="./css/stylemenu.css">
+    <link rel="stylesheet" href="./css/stylegrid.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <div class="container-grid">
-        <header class="item1-grid grid-tamanhoitem1">
-            <div>
-                <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2295%2FLogo-new.png&w=1920&q=75" alt="">
-                <h3 class="menu">Grocery</h3>
-                <ul class="submenu">
-                    <li><a href="">Grocery</li></a>
-                    <li><a href="">Bakery</li></a>
-                    <li><a href="">Makeup</li></a>
-                    <li><a href="">Bags</li></a>
-                    <li><a href="">Clothing</li></a>
-                    <li><a href="">Furniture</li></a>
-                    <li><a href="">Daily Needs</li></a>
-                    <li><a href="">Books</li></a>
-                    <li><a href="">Gadget</li></a>
-                    <li><a href="">Medicine</li></a>
-                </ul>
-
-                <ul class="menu">
-                    <li>Shops</li>
-                    <li>Offers</li>
-                    <li>Contact</li>
-                    <li>Pages</li>
-                    <ul class="submenu">
-                        <li><a href="">Flash Sale</li></a>
-                        <li><a href="">Manufactures/Publishers</li></a>
-                        <li><a href="">Authors</li></a>
-                        <li><a href="">FAQ</li></a>
-                        <li><a href="">Terms & Conditions</li></a>
-                        <li><a href="">Customer Refund Policy</li></a>
-                        <li><a href="">Vendor Refund Policy</li></a>
-                    </ul>
-                </ul>
+        <header class="item1-grid headermenu">
+            <div class="teste2">
+                <div class="logo"><img
+                        src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2295%2FLogo-new.png&w=1920&q=75"
+                        alt=""></div>
+                <div class="menu-container">
+                    <button class="menu">Grocery</button>
+                    <div class="menu-item">
+                        <ul class="lista">
+                            <li><a href="">Grocery</li></a>
+                            <li><a href="">Bakery</li></a>
+                            <li><a href="">Makeup</li></a>
+                            <li><a href="">Bags</li></a>
+                            <li><a href="">Clothing</li></a>
+                            <li><a href="">Furniture</li></a>
+                            <li><a href="">Daily Needs</li></a>
+                            <li><a href="">Books</li></a>
+                            <li><a href="">Gadget</li></a>
+                            <li><a href="">Medicine</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="teste">
+                <div class="submenu">Shops</div>
+                <div class="submenu">Offers</div>
+                <div class="submenu">Contact</div>
+                <div class="submenu">
+                    <div class="menu-container">
+                        <div>Pages</div>
+                        <ul class="menu-item lista">
+                            <li><a href="">Flash Sale</li></a>
+                            <li><a href="">Manufactures/Publishers</li></a>
+                            <li><a href="">Authors</li></a>
+                            <li><a href="">FAQ</li></a>
+                            <li><a href="">Terms & Conditions</li></a>
+                            <li><a href="">Customer Refund Policy</li></a>
+                            <li><a href="">Vendor Refund Policy</li></a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </header>
         <main class="item2-grid">
-            <div >
-                <ul>
-                    <li>
-                        <a href="Fv">Fruits & Vegetables</a>
-                        <ul>
-                            <li><a href="Fruits">Fruits</a></li>
-                            <li><a href="Vegetables">Vegetables</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Mf">Meat & Fish</a>
-                        <ul>
-                            <li><a href="Fresh">Fresh Fish</a></li>
-                            <li><a href="Meat">Meat</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Snacks">Snacks</a>
-                        <ul>
-                            <li><a href="Nb">Nuts & Biscuits</a></li>
-                            <li><a href="Chocolate">Chocolates</a></li>
-                            <li><a href="Crisps">Crisps</a></li>
-                            <li><a href="Noodles">Noodles & Pasta</a></li>
-                            <li><a href="Sauce">Sauce</a></li>
-                            <li><a href="Soup">Soup</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Pet Care">Pet Care</a>
-                        <ul>
-                            <li><a href="Cat Food">Cat Food</a></li>
-                            <li><a href="Doug Food">Doug Food</a></li>
-                            <li><a href="Accessories">Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Home & Cleaning">Home & Cleaning</a>
-                        <ul>
-                            <li><a href="Air Freshner">Air Freshner</a></li>
-                            <li><a href="Cleaning Products">Cleaning Products</a></li>
-                            <li><a href="Kitchen Accessories">Kitchen Accessories</a></li>
-                            <li><a href="Laundry">Laundry</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Dairy">Dairy</a>
-                        <ul>
-                            <li><a href="Milk">Milk</a></li>
-                            <li><a href="Butter">Butter</a></li>
-                            <li><a href="Egg">Egg</a></li>
-                            <li><a href="Yogurt">Yogurt</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Cooking</a>
-                        <ul>
-                            <li><a href="Oil">Oil</a></li>
-                            <li><a href="Rice">Rice</a></li>
-                            <li><a href="Salt & Sugar">Salt & Sugar</a></li>
-                            <li><a href="Spices">Spices</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Breakfast">Breakfast</a>
-                        <ul>
-                            <li><a href="Bread">Bread</a></li>
-                            <li><a href="Cereal">Cereal</a></li>
-                            <li><a href="Jam">Jam</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Beverage</a>
-                        <ul>
-                            <li><a href="Coffee">Coffee</a></li>
-                            <li><a href="Energy Drinks">Energy Drinks</a></li>
-                            <li><a href="Juice">Juice</a></li>
-                            <li><a href="Fizzy Driks">Fizzy Driks</a></li>
-                            <li><a href="Tea">Tea</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Health & Beauty">Health & Beauty</a>
-                        <ul>
-                            <li><a href="Bath">Bath</a></li>
-                            <li><a href="Cream">Cream</a></li>
-                            <li><a href="Deodorant">Deodorant</a></li>
-                            <li><a href="Face Care">Face Care</a></li>
-                            <li><a href="Oral Care">Oral Care</a></li>
-                            <li><a href="Shaving Needs">Shaving Needs</a></li>
-                        </ul>
-                    </li>
+            <div class="menu-container">
+                <div>Fruits & Vegetables</div>
+                <ul class="menu-item lista">
+                    <li><a href="Fruits">Fruits</a></li>
+                    <li><a href="Vegetables">Vegetables</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Meat & Fish</div>
+                <ul class="menu-item lista">
+                    <li><a href="Fresh">Fresh Fish</a></li>
+                    <li><a href="Meat">Meat</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Snacks</div>
+                <ul class="menu-item lista">
+                    <li><a href="Nb">Nuts & Biscuits</a></li>
+                    <li><a href="Chocolate">Chocolates</a></li>
+                    <li><a href="Crisps">Crisps</a></li>
+                    <li><a href="Noodles">Noodles & Pasta</a></li>
+                    <li><a href="Sauce">Sauce</a></li>
+                    <li><a href="Soup">Soup</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Pet Care</div>
+                <ul class="menu-item lista">
+                    <li><a href="Cat Food">Cat Food</a></li>
+                    <li><a href="Doug Food">Doug Food</a></li>
+                    <li><a href="Accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Home & Cleaning</div>
+                <ul class="menu-item lista">
+                    <li><a href="Air Freshner">Air Freshner</a></li>
+                    <li><a href="Cleaning Products">Cleaning Products</a></li>
+                    <li><a href="Kitchen Accessories">Kitchen Accessories</a></li>
+                    <li><a href="Laundry">Laundry</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Dairy</div>
+                <ul class="menu-item lista">
+                    <li><a href="Milk">Milk</a></li>
+                    <li><a href="Butter">Butter</a></li>
+                    <li><a href="Egg">Egg</a></li>
+                    <li><a href="Yogurt">Yogurt</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Cooking</div>
+                <ul class="menu-item lista">
+                    <li><a href="Oil">Oil</a></li>
+                    <li><a href="Rice">Rice</a></li>
+                    <li><a href="Salt & Sugar">Salt & Sugar</a></li>
+                    <li><a href="Spices">Spices</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Breakfast</div>
+                <ul class="menu-item lista">
+                    <li><a href="Bread">Bread</a></li>
+                    <li><a href="Cereal">Cereal</a></li>
+                    <li><a href="Jam">Jam</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Beverage</div>
+                <ul class="menu-item lista">
+                    <li><a href="Coffee">Coffee</a></li>
+                    <li><a href="Energy Drinks">Energy Drinks</a></li>
+                    <li><a href="Juice">Juice</a></li>
+                    <li><a href="Fizzy Driks">Fizzy Driks</a></li>
+                    <li><a href="Tea">Tea</a></li>
+                </ul>
+            </div>
+            <div class="menu-container">
+                <div>Health & Beauty</div>
+                <ul class="menu-item lista">
+                    <li><a href="Bath">Bath</a></li>
+                    <li><a href="Cream">Cream</a></li>
+                    <li><a href="Deodorant">Deodorant</a></li>
+                    <li><a href="Face Care">Face Care</a></li>
+                    <li><a href="Oral Care">Oral Care</a></li>
+                    <li><a href="Shaving Needs">Shaving Needs</a></li>
                 </ul>
             </div>
         </main>
         <nav class="item3-grid">
             <div>
                 <div class="card">
-                    <img src="../images/apple-1.jpg" alt="appl">
+                    <img src="../images/apple-1.jpg" alt="apple">
+                    <p>Apples</p>
                 </div>
                 <div class="card">
-                    <img src="../images/espinafre.jpg" alt="espinafr">
+                    <img src="../images/espinafre.jpg" alt="espinafre">
+                    <p>Baby Spinach</p>
                 </div>
                 <div class="card">
-                    <img src="../images/blueberry.jpg" alt="blueberr">
+                    <img src="../images/blueberry.jpg" alt="blueberry">
+                    <p>Bluberries</p>
                 </div>
                 <div class="card">
-                    <img src="../images/bruxelas.jpg" alt="bruxels">
+                    <img src="../images/bruxelas.jpg" alt="bruxelas">
+                    <p>Brussels Sprout</p>
                 </div>
                 <div class="card">
-                    <img src="../images/celery.jpg" alt="celer">
+                    <img src="../images/mango.jpg" alt="mango">
+                    <p>Mango</p>
                 </div>
                 <div class="card">
                     <img src="../images/clementines.jpg" alt="clementine">
+                    <p>clementine</p>
                 </div>
                 <div class="card">
-                    <img src="../images/corn.jpg" alt="cor">
+                    <img src="../images/corn.jpg" alt="corn">
+                    <p>Sweet Corn</p>
                 </div>
                 <div class="card">
-                    <img src="../images/cucumber.jpg" alt="ber">
+                    <img src="../images/cucumber.jpg" alt="cucumber">
+                    <p>Cucumber</p>
                 </div>
                 <div class="card">
-                    <img src="../images/dates.jpg" alt="dat">
+                    <img src="../images/dates.jpg" alt="dates">
+                    <p>Dates</p>
                 </div>
                 <div class="card">
-                    <img src="../images/French.jpg" alt="fre">
-                </div>
-                <div class="card">
-                    <img src="../images/Green Beans.jpg" alt="bea">
-                </div>
-                <div class="card">
-                    <img src="../images/limao.jpg" alt="limao">
+                    <img src="../images/French.jpg" alt="French">
+                    <p>French Green Beans</p>
                 </div>
             </div>
         </nav>
     </div>
 </body>
+
 </html>
